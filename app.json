@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Link Share",
+    "slug": "awesome",
+    "scheme": "myapp",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.awesome.coolapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.awesome.coolapp",
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}
